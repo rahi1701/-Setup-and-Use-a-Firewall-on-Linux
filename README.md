@@ -12,7 +12,10 @@ Configure and Test Basic Firewall Rules to Allow or Block Traffic.
 
 # Step - 3 List current firewa l rules
 
-        Chain INPUT (policy DROP 0 packets, 0 bytes)
+    sudo iptables -L -v -n
+
+```
+Chain INPUT (policy DROP 0 packets, 0 bytes)
  pkts bytes target     prot opt in     out     source               destination         
     0     0 ufw-before-logging-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
     0     0 ufw-before-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
