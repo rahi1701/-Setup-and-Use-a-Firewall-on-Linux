@@ -203,8 +203,11 @@ To                         Action      From
 ```
 
 
-# Step - 5 Test the rule by attempting to connect to that port loca ly or remotely
+# Step - 5 Test the rule by attempting to connect to that port localy or remotely
 
         nc 127.0.0.1 23
         (UNKNOWN) [127.0.0.1] 23 (telnet) : Connection refused
+# Step - 6 Add rule to alow SSH (port 22) if on Linux.
+
+        sudo ufw allow 22/tcp
 
