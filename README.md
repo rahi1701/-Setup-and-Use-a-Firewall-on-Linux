@@ -211,16 +211,16 @@ To                         Action      From
 
         sudo ufw allow 22/tcp
 
-## You Can Directly apply or delete rules with use of below code
-
-        vim etc/default/ufw
-![direct](https://github.com/user-attachments/assets/c5c291d0-1446-43fd-87d2-e9ced2d282ea)
-
-
 
 # Step - 7 Remove the test block rule to restore original state.
 
         sudo ufw delete 1 
 <img width="464" alt="image" src="https://github.com/user-attachments/assets/e7202065-44d7-402f-9bf4-cbda2bffb4e2" />
+
+## You Can Directly apply or delete rules with use of below code
+
+        vim etc/default/ufw
+![direct](https://github.com/user-attachments/assets/c5c291d0-1446-43fd-87d2-e9ced2d282ea)
+
 
 
