@@ -7,9 +7,9 @@ Configure and Test Basic Firewall Rules to Allow or Block Traffic.
 # Step - 2 Enable:
 
     sudo ufw enable
+![Enable and active](https://github.com/user-attachments/assets/13607570-d181-4de8-9416-e8e7c63f03e4)
 
-    ![Enable and active](https://github.com/user-attachments/assets/130e4353-938e-4992-8f84-f68dd33a2822)
-
+   
 # Step - 3 List current firewa l rules
 
     sudo iptables -L -v -n
