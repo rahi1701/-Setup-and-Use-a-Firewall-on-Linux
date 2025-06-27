@@ -192,5 +192,19 @@ Chain ufw-user-output (1 references)
 
     sudo ufw deny in 23
 
-#
+    sudo ufw status
+```
+Status: active
+
+To                         Action      From
+--                         ------      ----
+23                         DENY        Anywhere                  
+23 (v6)                    DENY        Anywhere (v6)             
+```
+
+
+# Step - 5 Test the rule by attempting to connect to that port loca ly or remotely
+
+        nc 127.0.0.1 23
+        (UNKNOWN) [127.0.0.1] 23 (telnet) : Connection refused
 
