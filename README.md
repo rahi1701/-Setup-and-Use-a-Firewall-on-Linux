@@ -211,3 +211,16 @@ To                         Action      From
 
         sudo ufw allow 22/tcp
 
+
+# Step - 7 Remove the test block rule to restore original state.
+
+        sudo ufw delete 1 
+
+        ┌──(root㉿kali)-[/home/kali]
+└─# sudo ufw delete 1       
+Deleting:
+ deny 23
+Proceed with operation (y|n)? y
+Rule deleted
+
+
