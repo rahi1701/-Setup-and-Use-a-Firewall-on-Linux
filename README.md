@@ -215,12 +215,6 @@ To                         Action      From
 # Step - 7 Remove the test block rule to restore original state.
 
         sudo ufw delete 1 
-```
-┌──(root㉿kali)-[/home/kali]
-└─# sudo ufw delete 1       
-Deleting:
- deny 23
-Proceed with operation (y|n)? y
-Rule deleted
-```
+<img width="464" alt="image" src="https://github.com/user-attachments/assets/e7202065-44d7-402f-9bf4-cbda2bffb4e2" />
+
 
