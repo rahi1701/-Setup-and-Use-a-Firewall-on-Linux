@@ -183,5 +183,14 @@ Chain ufw-user-logging-output (0 references)
  pkts bytes target     prot opt in     out     source               destination         
 
 Chain ufw-user-output (1 references)
- pkts bytes target     prot opt in     out     source               destination      
+ pkts bytes target     prot opt in     out     source               destination
+
+
+
+```
+## Step - 4 Add a rule to block inbound traffic on a specific port (e.g., 23 for Telnet).
+
+    sudo ufw deny in 23
+
+#
 
